@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.body2{
+    padding-top: 30px;
+    width: 100%;
+    display: block;
+    
+}
+
+.background{
+    width: 95%;
+    height: 500px;
+    margin-left: 50px;
+}
+.poto1{
+    width: 1280px;
+    height: 600px;
+    background-repeat: repeat;
+   
+}
+
+/*Daftar*/
+.daftar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.daftar1{
+    width: 80%;
+    height: 700px;
+    margin-top: 100px;
+    display: flex;
+}
+.tas{
+    width: 50%;
+    height:700px;
+}
+.daftar2{
+    width: 100%;
+    height: 700px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.form4{
+    width: 800px;
+    height: 60px;
+    border:solid 2px #C4C4C4;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.regis{
+    font-weight: 700;
+    font-size: 35px;
+    color: #0D6EFD;
+}
+.regis1{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D6EFD;
+}
+.daftar3{
+    width: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.daftar4{
+    width: 800px;
+    height: 60px;
+    border-radius: 5px;
+    background-color:#0D6EFD ;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.daftar5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+    margin-top: 20px;
+}
